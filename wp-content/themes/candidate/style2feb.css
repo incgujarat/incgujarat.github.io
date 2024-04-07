@@ -1,0 +1,46 @@
+/*
+Theme Name: Candidate
+Theme URI: http://themeforest.net/user/Monkeysan/portfolio
+Author: Designed by Monkeysan
+Author URI: velikorodnov.com
+Description: Candidate is a unique and multi-purpose Wordpress theme that will suit for any nonprofit organization, such as charity, political campaign etc...
+Version: 4.1
+Tags: one-column, two-columns, left-sidebar, right-sidebar, responsive-layout, sticky-post, theme-options
+License: GNU General Public License
+License URI: license.txt
+*/
+
+.wp-caption {}
+.wp-caption-text{}
+.gallery-caption{}
+.bypostauthor{}
+.sticky {}
+
+.post-10.product .pledgetracker span{
+width:40% !important;
+}
+
+html.csscolumns {
+    margin-top: 0 !important;
+}
+.col-lg-6.col-md-6.col-sm-6.members_list {
+    margin-bottom: 30px;
+}
+.speeches_video{margin-bottom:30px;}
+.vjs-default-skin .vjs-big-play-button{width:50px !important; height:50px !important; left:57% !important; top:60% !important; background: rgba(0,0,0,0.7) !important;}
+.vjs-default-skin div.vjs-big-play-button span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: -23px 0 0 -19px !important;
+    background: url(http://www.incgujarat.com/wp-content/themes/candidate/img/play.png) !important;
+    background-size: contain !important;
+}
+@media (max-width: 420px) {
+	.col-lg-4.col-md-4.col-sm-6.col-xs-6.speeches_video {
+		width: 100%;
+	}
+}
